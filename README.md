@@ -12,6 +12,12 @@
 
 ## Overview
 
+> **Repository status:** this checkout currently contains the API project
+> documentation only. The actively implemented Fastify service is maintained
+> in the companion `coredevdave-cmd/stellar-scan-api` repository. Keep endpoint
+> and deployment claims synchronized with that implementation before publishing
+> a release from this repository.
+
 `stellar-scan-api` is a [Fastify](https://fastify.dev/) service that exposes the data produced by `stellar-scan-indexer` through both a REST API and a GraphQL endpoint. It powers the `stellar-scan-web` frontend and is designed to be consumed by any external developer tool or analytics platform.
 
 ---
